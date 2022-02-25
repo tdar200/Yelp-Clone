@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 1000px;
+}
+
+a {
+  white-space: nowrap;
+
+}
+
+.home-1 {
+  height: 50vh;
+  background: url("https://www.jerseygirlcooks.com/wp-content/uploads/2011/02/Chicken-Shwarma.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.background-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: inherit;
+}
+
+.background-overlay Button:hover text {
+  text-decoration: underline;
+  text-underline-offset: 1vh;
+}
+
+.home-2 {
+  height: 40vh;
+  background: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh;
+}
+
+.home-2 div {
+  display: flex;
+}
+
+.home-2 .card-div {
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 180px;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+  color: black;
+}
+
+.home-2 .card-div img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.home-2 .card-div p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.home-2 .card-div:hover {
+  transform: scale(1.025);
+  color: black;
+}
+
+.home-3 {
+  height: 70vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh;
+}
+
+.home-3 div {
+  display: flex;
+}
+
+.home-3 h5 {
+  color: rgba(220, 53, 69);
+}
+
+.home-3 .card-div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+
+  text-decoration: none;
+  transition: 0.2s ease-in;
+  color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-3 .card-div img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.home-3 .card-div .card-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  padding-left: 5px;
+}
+
+.home-4 {
+  background: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh;
+}
+
+.home-4 div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0vh 5vh;
+  justify-content: center;
+}
+
+.home-4 .card-div {
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+  padding: 2.5px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+  color: black;
+  background-color: white;
+}
+
+.home-4 .card-div i {
+  font-size: 60px;
+}
+
+.home-4 .card-div p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.home-4 .card-div:hover {
+  transform: scale(1.025);
+  color: black;
+}
+
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ccc;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #f8ce0b;
+}
+
+.details-form {
+  width: 100%;
+}
+
+.details-navbar .navbar-nav a {
+  font-size: 13px;
+}
+
+.details-navbar button {
+  font-size: 13px;
+}
+
+.details-main-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  height: 400px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  padding: 5vh 10%;
+}
+
+.details-main-image a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.details-main-container {
+  padding: 5vh 10%;
+  display: flex;
+  flex: 3;
+
+}
+
+.details-main-container-1 {
+  flex: 2;
+  margin-right: 5vh;
+}
+
+.details-main-container-2 {
+  flex: 1;
+}
+
+.details-main-buttons {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 5vh
+
+}
+
+.details-main-container Button {
+  border: 1px solid grey;
+  margin-right: 1vh;
+}
+
+.details-main-location {
+  padding: 5vh 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.map {
+  width: 300px;
+  height: 250px;
+  position: relative; 
+}
+
+.details-main-amenities {
+  padding: 5vh 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.details-main-reviews {
+  padding: 5vh 0;
+  border-bottom: 1px solid lightgrey;
+}
