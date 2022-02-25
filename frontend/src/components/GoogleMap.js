@@ -5,7 +5,7 @@ function GoogleMap({ center, zoom }) {
   return (
     <div className='map'>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyC_nAGqeyGcOyd1Vb2eF16r0vrR1pDwW9I" }}
+        bootstrapURLKeys={{ key: process.env.REACT_APP_GOGGLE_API_KEY }}
         defaultCenter={center}
         defaultZoom={zoom}
       >
@@ -14,7 +14,6 @@ function GoogleMap({ center, zoom }) {
             style={{ color: "red", fontSize: "2rem" }}
             class='fas fa-map-marker-alt'
           ></i>
-       
         </div>
       </GoogleMapReact>
     </div>
